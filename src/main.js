@@ -7,6 +7,10 @@ import installElementPlus from './plugin/index'
 
 import './assets/main.css'
 
+import './index.css'
+
+
+
 const app = createApp(App)
 
 installElementPlus(app)

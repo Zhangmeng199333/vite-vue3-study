@@ -1,15 +1,11 @@
 <template>
   <ul class="wraps">
-    <li
-      v-for="item in waterList"
-      class="items"
-      :style="{
-        height: item.height + 'px',
-        background: item.background,
-        top: item.top + 'px',
-        left: item.left + 'px',
-      }"
-    ></li>
+    <li v-for="item in waterList" class="items" :style="{
+      height: item.height + 'px',
+      background: item.background,
+      top: item.top + 'px',
+      left: item.left + 'px',
+    }"></li>
   </ul>
 </template>
 

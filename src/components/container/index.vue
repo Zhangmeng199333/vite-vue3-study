@@ -11,7 +11,12 @@
       <el-tab-pane label="组件通信">
         <father></father>
       </el-tab-pane>
-      <el-tab-pane label="Task">Task</el-tab-pane>
+      <el-tab-pane label="ECharts">
+        <basic-echarts></basic-echarts>
+      </el-tab-pane>
+      <el-tab-pane label="Tailwind CSS">
+        <tailwind></tailwind>
+      </el-tab-pane>
     </el-tabs>
   </div>
 </template>
@@ -21,6 +26,8 @@ import Watch from "./watch/index.vue";
 import BindStyle from "./BindStyle/index.vue";
 import RenderCom from "./render/index.vue";
 import Father from "./communicate/Father.vue";
+import BasicEcharts from "./BasicEcharts/index.vue";
+import Tailwind from "./tailwind/index.vue";
 
 const tabPosition = ref("left");
 </script>
